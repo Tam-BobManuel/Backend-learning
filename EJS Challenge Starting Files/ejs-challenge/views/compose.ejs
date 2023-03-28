@@ -1,0 +1,18 @@
+<%- include('partials/header.ejs')-%>
+
+<h1 class="text-center">Compose</h1>
+
+            <!-- The form for users to submit articles -->
+
+<form action="/compose" method="post" class="text-center">
+    <label for="postTitle" class="text-dark d-block">Title</label>
+    <input type="text" name="postTitle" class="form-control d-block"><br>
+
+    <label for="postBody" class="text-dark d-block">Post</label>
+    <textarea name="postBody" class="form-control d-block" rows="3"></textarea><br>
+    
+    <button type="submit" name="publishButton" class="btn bg-primary mx-auto">Publish</button>
+
+</form>
+
+<%- include('partials/footer.ejs')-%>
