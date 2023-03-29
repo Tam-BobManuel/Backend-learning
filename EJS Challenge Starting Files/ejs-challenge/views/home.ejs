@@ -4,11 +4,11 @@
 
 <p><%= startingContent %></p>
 
-<%= posts %>
+<!-- <p><%= posts %></p> -->
 
 <% posts.forEach(element => {  %>
     <h1><%= element.title %></h1>
-    <p><%= element.content %></p>
+    <p><%= element.content %><a href="posts/ <%= element.title %>">  read more</a></p>
 <% }); %>
 
 <%- include('partials/footer.ejs'); -%>
