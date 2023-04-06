@@ -1,5 +1,5 @@
 # Back-end With JavaScript
-Learning EJS, mongoDB and more
+Learning node, EJS, mongoDB and more
 
 If you want to copy my code and play around with it to learn more you need to have knowledge of JavaScript first.
 
